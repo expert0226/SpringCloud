@@ -1,0 +1,11 @@
+# default: 8080
+server.port: 8888
+
+spring:
+  application:
+    name: msa-myconfigserver
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/expert0226/config.git
